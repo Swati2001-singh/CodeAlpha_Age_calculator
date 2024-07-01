@@ -1,0 +1,162 @@
+body {
+     
+    margin: 0;
+    box-sizing: border-box;
+    padding:0;
+    font-size:border-box ;
+    font-family: 'Poppins','sans-serif';
+}
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    width:100%;
+    min-height: 100vh;
+    background:black;
+    color:rgb(21, 247, 55);
+    padding:10px;
+  }
+
+  .age-calculator {
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    background-color: #046727;
+  }
+  .age-calculator marquee{
+    color:rgb(234, 12, 12);
+  }
+  .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #370303;
+  }
+
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .controls input {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+  }
+
+  .controls button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #4a171e;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    margin-left: 5px;
+  }
+
+  .result {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .birthdate {
+    font-size: 22px;
+  }
+
+  .age {
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .wishing {
+    font-size: 40px;
+    color: #4a171e;
+    font-weight: bold;
+    margin-top: 40px;
+  }
+
+
+
+/**{
+    margin:0;
+    padding:0;
+    font-size:border-box ;
+    font-family: 'Poppins','sans-serif';
+}
+.conatiner{                       /*conatiner is like whole webpage design, color, etc*/
+ /* width:100%;
+   min-height: 100vh;
+   background:black;
+   color:rgb(21, 247, 55);
+   padding:10px;
+}
+.calculator{
+    width:100%;
+    max-width: 600px;
+    margin-left:20%;
+    margin-top:10%;
+}
+.calculator h1{
+    font-size:50px;
+    font-style: italic;
+    text-align: center;
+}
+.conatiner h1 span{
+    color:rgb(232, 25, 25);
+}
+.input-box{
+    margin:50px 0;
+    padding:35px;
+    border-radius:10px ;
+    background: rebeccapurple;
+    display:flex;
+    align-items:center;
+
+}
+.input-box input{
+    flex:1;
+    margin-right:20px;
+    padding:15px 20px;
+    border:0;
+    outline:0;
+    font-size:18px;
+    border-radius:5px;
+    position:relative;
+}
+.input-box button{
+    padding:15px 30px;
+    outline:0;
+    border:0;
+    border-radius:5px;
+    background:#ffff76;
+    font-weight:500;
+    color:#333;
+    cursor:pointer;
+}
+.input-box input::-webkit-calendar-picker-indicator{
+    top:10px;
+    left:300px;
+    right:0;
+    bottom:0;
+    width:auto;
+    height:auto;
+    position:absolute;
+    background-position: calc(100%-10px);
+    background-size:30px;
+    cursor:pointer;   
+    
+}
+#result{
+
+}*/
